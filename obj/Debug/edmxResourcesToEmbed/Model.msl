@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjMVCModelStoreContainer" CdmEntityContainer="ProjMVCEntities">
+    <EntitySetMapping Name="tb_livro">
+      <EntityTypeMapping TypeName="ProjMVCModel.tb_livro">
+        <MappingFragment StoreEntitySet="tb_livro">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
